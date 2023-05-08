@@ -27,7 +27,7 @@ translate russian strings:
 
     # 00console.rpy:513
     old " <python expression or statement>: run the expression or statement"
-    new " <выражение или оператор python>: запустить выражение или оператор"
+    new " <python выражение или оператор>: запустить выражение или оператор"
 
     # 00console.rpy:521
     old "clear: clear the console history"
@@ -51,7 +51,7 @@ translate russian strings:
 
     # 00console.rpy:565
     old "watch <expression>: watch a python expression"
-    new "watch <выражение>: наблюдать за выражением python"
+    new "watch <выражение>: наблюдать за python выражением"
 
     # 00console.rpy:591
     old "unwatch <expression>: stop watching an expression"
@@ -59,19 +59,19 @@ translate russian strings:
 
     # 00console.rpy:622
     old "unwatchall: stop watching all expressions"
-    new "unwatchall: глобальное прекращение наблюдения"
+    new "unwatchall: прекратить наблюдать за всеми выражениями"
 
     # 00console.rpy:639
     old "jump <label>: jumps to label"
-    new "jump <label>: прыжок на метку"
+    new "jump <label>: прыгнуть к метке"
 
     # 00console.rpy:685
     old "short: Shorten the representation of objects on the console (default)."
-    new "short: Сокращённое представление обектов (repr) в консоли (по умолчанию)."
+    new "short: Сокращённое представление объектов (repr) в консоли (по умолчанию)."
 
     # 00console.rpy:690
     old "long: Print the full representation of objects on the console."
-    new "long: Выводить полное представление обектов (repr) в консоли."
+    new "long: Выводить полное представление объектов (repr) в консоли."
 
     # renpy/common/00console.rpy:814
     old "watch <expression>: watch a python expression\n watch short: makes the representation of traced expressions short (default)\n watch long: makes the representation of traced expressions as is"
@@ -87,27 +87,20 @@ translate russian strings:
 
     # renpy/common/00console.rpy:784
     old "stack: print the return stack"
-    new "stack: выводит стэк возврата (return stack)"
-
-translate russian strings:
+    new "stack: выводит стек возврата (return stack)"
 
     # renpy/common/_developer/developer.rpym:51
     old "Persistent Viewer"
-    # Automatic translation.
-    new "Постоянный просмотрщик"
+    new "Переменные \"persistent\""
 
     # renpy/common/_developer/developer.rpym:70
     old "Speech Bubble Editor (Shift+B)"
-    # Automatic translation.
     new "Редактор речевых пузырьков (Shift+B)"
 
     # renpy/common/00console.rpy:789
     old "help: show this help\n help <expr>: show signature and documentation of <expr>"
-    # Automatic translation.
-    new "help: покажите эту помощь\n help <expr>: показать подпись и документацию <expr"
+    new "help: вывести список команд\n help <expr>: показать сигнатуру и документацию к <expr>"
 
     # renpy/common/00console.rpy:813
     old "Help may display undocumented functions. Please check that the function or\nclass you want to use is documented.\n\n"
-    # Automatic translation.
-    new "В справке могут отображаться недокументированные функции. Пожалуйста, проверьте, что функция или\nкласс, который вы хотите использовать, документирован.\n\n"
-
+    new "Список команд может отображать недокументированные функции. Проверьте, что функция или\nкласс, который вы хотите использовать, имеет документацию.\n\n"
