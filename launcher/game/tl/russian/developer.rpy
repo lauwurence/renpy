@@ -104,3 +104,4 @@ translate russian strings:
     # renpy/common/00console.rpy:813
     old "Help may display undocumented functions. Please check that the function or\nclass you want to use is documented.\n\n"
     new "Список команд может отображать недокументированные функции. Проверьте, что функция или\nкласс, который вы хотите использовать, имеет документацию.\n\n"
+    
