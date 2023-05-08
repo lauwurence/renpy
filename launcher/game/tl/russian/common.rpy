@@ -223,7 +223,7 @@ translate russian strings:
 
     # 00director.rpy:1561
     old "(statement)"
-    new "(функция)"
+    new "(оператор)"
 
     # 00director.rpy:1562
     old "(tag)"
@@ -267,7 +267,7 @@ translate russian strings:
 
     # 00director.rpy:1674
     old "Statement:"
-    new "Функции:"
+    new "Оператор:"
 
     # 00director.rpy:1695
     old "Tag:"
