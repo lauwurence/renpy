@@ -35,11 +35,11 @@ translate russian strings:
 
     # gui.rpy:32
     old "## The small color is used for small text, which needs to be brighter/darker to achieve the same effect."
-    new "## Small_color используется в маленьком тексте, который должен быть ярче/темнее, для того, чтобы выделяться."
+    new "## Цвет, используемый в маленьком тексте, который должен быть ярче/темнее, чем его фон."
 
     # gui.rpy:36
     old "## The color that is used for buttons and bars that are hovered."
-    new "## Цвет, используемых в кнопках и панелях, когда они наведены."
+    new "## Цвет, используемый в кнопках и панелях, когда они наведены."
 
     # gui.rpy:39
     old "## The color used for a text button when it is selected but not focused. A button is selected if it is the current screen or preference value."
@@ -127,19 +127,15 @@ translate russian strings:
 
     # gui.rpy:111
     old "## The horizontal alignment of the character's name. This can be 0.0 for left-aligned, 0.5 for centered, and 1.0 for right-aligned."
-    new "## Горизонтальное выравнивание имени персонажа. Это может быть 0.0 для левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного выравнивания."
+    new "## Горизонтальное выравнивание имени персонажа. Это может быть 0.0 для лево-ориентированного, 0.5 для центрированного и 1.0 для право-ориентированного выравнивания."
 
     # gui.rpy:115
     old "## The width, height, and borders of the box containing the character's name, or None to automatically size it."
-    new "## Ширина, высота и границы окна, содержащего имя персонажа или None, для автоматической размерки."
+    new "## Ширина, высота и границы окна, содержащего имя персонажа или None, для автоматического подгона размера."
 
     # gui.rpy:120
     old "## The borders of the box containing the character's name, in left, top, right, bottom order."
     new "## Границы окна, содержащего имя персонажа слева, сверху, справа и снизу по порядку."
-
-    # gui.rpy:124
-    old "## If True, the background of the namebox will be tiled, if False, the background of the namebox will be scaled."
-    new "## Если True, фон текстового окна будет моститься (расширяться по эффекту плитки). Если False, фон текстового окна будет фиксированным."
 
     # gui.rpy:129
     old "## The placement of dialogue relative to the textbox. These can be a whole number of pixels relative to the left or top side of the textbox, or 0.5 to center."
@@ -433,11 +429,6 @@ translate russian strings:
     old "## NVL-mode."
     new "## Режим NVL."
 
-
-translate russian strings:
-
     # gui/game/gui.rpy:14
     old "## Enable checks for invalid or unstable properties in screens or transforms"
-    # Automatic translation.
-    new "## Включить проверку на недопустимые или нестабильные свойства в экранах или преобразованиях"
-
+    new "## Включить проверку на недопустимые или нестабильные свойства в экранах или трансформах"
